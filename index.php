@@ -13,7 +13,7 @@ $vodkaprice = "119 Kč";
 
 $homelessMoney = "17" + "40" + "100" - "50 ";
 
-$homelessMoneyafter = $homelessMoney - "119";
+$homelessMoneyafter = $homelessMoney - $vodkaprice;
 echo "Cena vodky:". $vodkaprice;
 
 echo " <br>Peníze bezdomovce před návštěvou večerky:". $homelessMoney . "<br>";
